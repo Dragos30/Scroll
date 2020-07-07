@@ -1,0 +1,13 @@
+#app{
+ display: flex;
+ flex-direction: row;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    justify-items: self-end;
+}
+form>input,label,button{
+    display: flex;
+    flex-direction: column;
+}

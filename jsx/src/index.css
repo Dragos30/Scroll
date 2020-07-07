@@ -1,0 +1,47 @@
+#container{
+    width: 1000px;
+    height: 100%;
+    background-color: black;
+}
+body{
+    background-color: burlywood;
+}
+#part1 img{
+    width: auto;
+    height: auto;
+}
+#part2 img{
+    width: 300px;
+    height: auto;
+}
+.ui.secondary.menu{
+    padding: 5% 5%;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: #ffffff;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+h4{
+    color: white;
+}
+#me{
+    display: flex;
+    margin: auto;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+#links{
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 30px;
+    color: black;
+}
+#mail{
+    text-align: center;
+    font-size: large;
+    letter-spacing: 5px;
+    color: black;
+}

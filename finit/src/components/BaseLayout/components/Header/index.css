@@ -1,0 +1,60 @@
+.header {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  background: transparent;
+
+}
+.rotate{
+  display: flex;
+}
+#me{
+  width: 150px;
+  display: flex;
+  margin: auto;
+}
+#react{
+  width: 150px;
+  margin-top: -4%;
+  display: flex;
+  margin: auto;
+}
+
+#header-title {
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.links-header {
+  display: flex;
+}
+
+p a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.5rem;
+    border-radius: 10px;
+    font-weight: 800;
+    padding: 10px 10px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+p a:hover,
+p a :active {
+    background: #FFF;
+    transition: 0.5s;
+    background-color: black;
+    color: aliceblue;
+    font-size: 0.5rem;
+    font-weight: 800;
+    list-style: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+}

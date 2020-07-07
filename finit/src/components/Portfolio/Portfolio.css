@@ -1,0 +1,10 @@
+ul{
+    padding: 0%;
+}
+li{
+    color: black;
+    list-style: none;
+    font-weight: 800;
+}
+@media screen and (min-width : 0px) and (max-width : 768px){
+}

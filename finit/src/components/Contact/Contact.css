@@ -1,0 +1,32 @@
+.footer span{
+  font-size: xx-small;
+}
+.contact-form{
+  margin: 20px auto;
+}
+input {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  letter-spacing: 1px;
+  background: aliceblue;
+  box-shadow: none;
+  /* border: 10px solid blue; */
+  border-radius: 10px;
+}
+textarea{
+  background: aliceblue;
+  /* border: 10px solid blue; */
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  letter-spacing: 1px;
+}
+a{
+  background: aliceblue;
+  /* border: 10px solid blue; */
+  border-radius: 10px;
+}
